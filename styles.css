@@ -31,6 +31,8 @@ body{
 .about-grid{display:grid;grid-template-columns:1fr 240px;gap:1.5rem}
 .projects-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:1rem}
 .card{background:rgba(255,255,255,0.03);padding:1rem;border-radius:10px}
+.card img{max-width:100%;height:auto;border-radius:8px;margin-bottom:1rem;display:block}
+img{max-width:100%;height:auto;display:block}
 .skills-list{display:flex;flex-wrap:wrap;gap:.5rem}
 .skill{background:rgba(255,255,255,0.04);padding:.35rem .6rem;border-radius:999px}
 .contact-form{max-width:640px;display:grid;gap:.6rem}

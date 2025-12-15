@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width,initial-scale=1" />
+		<title>Contact — Ayan Taghiyeva</title>
+		<meta name="description" content="Get in touch with me." />
+		<link rel="stylesheet" href="styles.css">
+	</head>
+	<body>
+		<header class="site-header">
+			<div class="container header-inner">
+				<a href="index.html" class="logo">Ayan Taghiyeva</a>
+				<button class="nav-toggle" aria-expanded="false" aria-controls="primary-nav">☰</button>
+				<nav id="primary-nav" class="primary-nav" aria-label="Primary navigation">
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="about.html">About</a></li>
+						<li><a href="projects.html">Projects</a></li>
+						<li><a href="skills.html">Skills</a></li>
+						<li><a href="contact.html">Contact</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+
+		<main>
+			<section class="section container">
+				<h1>Contact Me</h1>
+				<p>I'd love to hear from you! Whether you have questions, want to collaborate, or just want to say hello, feel free to reach out.</p>
+
+				<div class="contact-info">
+					<h2>Get in Touch</h2>
+					<p><strong>Email:</strong> <a href="mailto:ayantaghiyeva1@gmail.com">ayantaghiyeva1@gmail.com</a></p>
+					<p><strong>Location:</strong> Baku, Azerbaijan</p>
+				</div>
+
+				<h2>Send a Message</h2>
+				<form id="contact-form" class="contact-form" novalidate>
+					<label for="name">Name</label>
+					<input id="name" name="name" type="text" required />
+
+					<label for="email">Email</label>
+					<input id="email" name="email" type="email" required />
+
+					<label for="message">Message</label>
+					<textarea id="message" name="message" rows="5" required></textarea>
+
+					<button class="btn" type="submit">Send message</button>
+					<p id="form-status" class="form-status" aria-live="polite"></p>
+				</form>
+			</section>
+		</main>
+
+		<footer class="site-footer">
+			<div class="container footer-inner">
+				<p>© <span id="year"></span> Ayan Taghiyeva — Built with care.</p>
+				<p class="socials">
+					<a href="#">GitHub</a>
+					<a href="#">LinkedIn</a>
+				</p>
+			</div>
+		</footer>
+
+		<script src="script.js" defer></script>
+	</body>
+</html>
