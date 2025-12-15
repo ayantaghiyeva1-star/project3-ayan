@@ -1,0 +1,128 @@
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width,initial-scale=1" />
+		<title>Ayan Taghiyeva</title>
+		<meta name="description" content="Portfolio of Your Name — web developer, designer, and problem solver." />
+		<link rel="stylesheet" href="styles.css">
+	</head>
+	<body>
+		<header class="site-header">
+			<div class="container header-inner">
+				<a class="logo" href="#">Your<span class="accent">Name</span></a>
+				<button class="nav-toggle" aria-expanded="false" aria-controls="primary-nav">☰</button>
+				<nav id="primary-nav" class="primary-nav" aria-label="Primary navigation">
+					<ul>
+						<li><a href="#about">About</a></li>
+						<li><a href="#projects">Projects</a></li>
+						<li><a href="#skills">Skills</a></li>
+						<li><a href="#contact">Contact</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+
+		<main>
+			<section class="hero" id="home">
+				<div class="container hero-inner">
+					<div class="hero-text">
+						<h1>Hi, I'm <strong>Ayan Taghiyeva</strong></h1>
+						<p class="tagline">I build accessible, performant websites and delightful user experiences.</p>
+						<p>
+							<a class="btn" href="#projects">See my work</a>
+							<a class="btn btn-ghost" href="#contact">Get in touch</a>
+						</p>
+					</div>
+					<div class="hero-avatar" aria-hidden="false">
+						<img src="assets/avatar.svg" alt="Your avatar" />
+					</div>
+				</div>
+			</section>
+
+			<section id="about" class="section container">
+				<h2>About</h2>
+				<div class="about-grid">
+					<p>
+						I'm a web developer focused on building clean, maintainable interfaces and
+						delightful UX. I enjoy collaborating with designers and engineers to
+						turn ideas into fast, accessible products.
+					</p>
+					<ul>
+						<li><strong>Location:</strong> Your City</li>
+						<li><strong>Role:</strong> Front-end / Full-stack Engineer</li>
+						<li><strong>Email:</strong> <a href="mailto:you@example.com">you@example.com</a></li>
+					</ul>
+				</div>
+			</section>
+
+			<section id="projects" class="section alt-bg">
+				<div class="container">
+					<h2>Projects</h2>
+					<div class="projects-grid">
+						<article class="card">
+							<h3>Project One</h3>
+							<p>Short description of the project, technologies used, and impact.</p>
+							<p><a href="#" class="link">View project →</a></p>
+						</article>
+						<article class="card">
+							<h3>Project Two</h3>
+							<p>Short description of the project, technologies used, and impact.</p>
+							<p><a href="#" class="link">View project →</a></p>
+						</article>
+						<article class="card">
+							<h3>Project Three</h3>
+							<p>Short description of the project, technologies used, and impact.</p>
+							<p><a href="#" class="link">View project →</a></p>
+						</article>
+					</div>
+				</div>
+			</section>
+
+			<section id="skills" class="section container">
+				<h2>Skills</h2>
+				<div class="skills-list">
+					<span class="skill">HTML</span>
+					<span class="skill">CSS</span>
+					<span class="skill">JavaScript</span>
+					<span class="skill">React</span>
+					<span class="skill">Node.js</span>
+					<span class="skill">Accessibility</span>
+				</div>
+			</section>
+
+			<section id="contact" class="section alt-bg">
+				<div class="container">
+					<h2>Contact</h2>
+					<p>If you'd like to work together, send a short message below.</p>
+					<form id="contact-form" class="contact-form" novalidate>
+						<label for="name">Name</label>
+						<input id="name" name="name" type="text" required />
+
+						<label for="email">Email</label>
+						<input id="email" name="email" type="email" required />
+
+						<label for="message">Message</label>
+						<textarea id="message" name="message" rows="5" required></textarea>
+
+						<button class="btn" type="submit">Send message</button>
+						<p id="form-status" class="form-status" aria-live="polite"></p>
+					</form>
+				</div>
+			</section>
+		</main>
+
+		<footer class="site-footer">
+			<div class="container footer-inner">
+				<p>© <span id="year"></span> Your Name — Built with care.</p>
+				<p class="socials">
+					<a href="#">GitHub</a>
+					<a href="#">LinkedIn</a>
+				</p>
+			</div>
+		</footer>
+
+		<script src="script.js" defer></script>
+	</body>
+</html>
